@@ -87,21 +87,30 @@
         "groups": [
           {
             "group": "Fundamentals",
+            "icon": "golf-flag-hole",
             "pages": [
               {
                 "group": "Ops & Supply Chain",
+                "icon": "shirt-long-sleeve",
                 "pages": [
                   {
                     "group": "Course Overview",
                     "icon": "hand-wave",
                     "pages": [
-                      "university/fundamentals/ops-and-supply-chain/course-overview/intro-to-parabola-university-and-basics"
+                      "university/fundamentals/ops-and-supply-chain/course-overview/intro-to-parabola-university-and-basics",
+                      "university/fundamentals/ops-and-supply-chain/course-overview/building-with-parabolas-ai-chat-interface"
                     ]
+                  },
+                  {
+                    "group": "Pulling Data",
+                    "icon": "database",
+                    "pages": []
                   }
                 ]
               },
               {
                 "group": "Finance & Accounting",
+                "icon": "money-bill-1-wave",
                 "pages": [
                   "university/fundamentals/finance-and-accounting/intro",
                   "university/fundamentals/finance-and-accounting/level-2"

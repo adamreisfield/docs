@@ -24,7 +24,7 @@
     },
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Getting started",
         "groups": [
           {
             "group": "Getting started",
@@ -62,7 +62,7 @@
         ]
       },
       {
-        "tab": "API reference",
+        "tab": "Pulling data",
         "groups": [
           {
             "group": "API documentation",
@@ -80,6 +80,12 @@
             ]
           }
         ]
+      },
+      {
+        "tab": "Transforming data"
+      },
+      {
+        "tab": "Exporting data"
       },
       {
         "tab": "University",

@@ -9,6 +9,19 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Parabola University",
+          "icon": "book-open-cover",
+          "color": {
+            "light": "#0C3636",
+            "dark": "#0C3636"
+          },
+          "href": "https://parabola.io/resources/parabola-university"
+        }
+      ]
+    },
     "tabs": [
       {
         "tab": "Guides",
@@ -18,7 +31,8 @@
             "pages": [
               "index",
               "quickstart",
-              "development"
+              "development",
+              "guides/getting-started/how-to"
             ]
           },
           {
@@ -66,22 +80,33 @@
             ]
           }
         ]
+      },
+      {
+        "tab": "University",
+        "icon": "book",
+        "groups": [
+          {
+            "group": "Fundamentals",
+            "pages": [
+              {
+                "group": "Finance & Accounting",
+                "pages": [
+                  "university/fundamentals/finance-and-accounting/intro",
+                  "university/fundamentals/finance-and-accounting/level-2"
+                ]
+              },
+              {
+                "group": "Ops & supply chain",
+                "pages": [
+                  "university/fundamentals/ops-and-supply-chain/intro",
+                  "university/fundamentals/ops-and-supply-chain/level-2"
+                ]
+              }
+            ]
+          }
+        ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",

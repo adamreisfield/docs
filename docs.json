@@ -12,7 +12,7 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Parabola University",
+          "anchor": "Your Flows",
           "icon": "book-open-cover",
           "color": {
             "light": "#0C3636",
@@ -89,17 +89,22 @@
             "group": "Fundamentals",
             "pages": [
               {
+                "group": "Ops & Supply Chain",
+                "pages": [
+                  {
+                    "group": "Course Overview",
+                    "icon": "hand-wave",
+                    "pages": [
+                      "university/fundamentals/ops-and-supply-chain/course-overview/intro-to-parabola-university-and-basics"
+                    ]
+                  }
+                ]
+              },
+              {
                 "group": "Finance & Accounting",
                 "pages": [
                   "university/fundamentals/finance-and-accounting/intro",
                   "university/fundamentals/finance-and-accounting/level-2"
-                ]
-              },
-              {
-                "group": "Ops & supply chain",
-                "pages": [
-                  "university/fundamentals/ops-and-supply-chain/intro",
-                  "university/fundamentals/ops-and-supply-chain/level-2"
                 ]
               }
             ]
